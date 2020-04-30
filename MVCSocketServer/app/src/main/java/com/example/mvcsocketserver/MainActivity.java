@@ -42,7 +42,12 @@ public class MainActivity extends Activity {
         btnStartServer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                initServer();
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        initServer();
+                    }
+                }).start();
             }
         });
 

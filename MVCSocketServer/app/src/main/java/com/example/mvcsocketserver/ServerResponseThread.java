@@ -39,8 +39,8 @@ public class ServerResponseThread implements Runnable {
         this.socketServerResponseInterface = socketServerResponseInterface;
         this.userIP = socket.getInetAddress().getHostAddress();
         onLineClient.put(userIP, socket);
-        Log.d(TAG_D,"用户：" + userIP
-                + " 加入了聊天室,当前在线人数:" + onLineClient.size());
+        Log.d(TAG_D,userIP
+                + " 加入,当前人数:" + onLineClient.size());
     }
 
     @Override
@@ -97,8 +97,8 @@ public class ServerResponseThread implements Runnable {
                 Log.d(TAG_D,"stop sendThread");
             }
             onLineClient.remove(userIP);
-            Log.d(TAG_D,"用户：" + userIP
-                    + " 退出,当前在线人数:" + onLineClient.size());
+            Log.d(TAG_D,userIP
+                    + " 退出,当前人数:" + onLineClient.size());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -196,7 +196,7 @@ public class ServerResponseThread implements Runnable {
                             lastReceiveTime = System.currentTimeMillis();
                             // socketServerResponseInterface.clientOnline(userIP);
                         } else {
-                            // msg = "用户" + userIP + " : " + msg;
+                             msg = "From " + userIP + " : " + msg;
                             Log.d(TAG_D,msg);
                             // addMessage(msg);
                             // socketServerResponseInterface.clientOnline(userIP);

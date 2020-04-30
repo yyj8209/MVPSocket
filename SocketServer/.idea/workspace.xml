@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70abed95-f263-4cde-824f-2f5cdfb02bf1" name="Default" comment="add .gitignore file">
-      <change afterPath="$PROJECT_DIR$/../MVCSocketServer/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCSocketServer/app/src/main/java/com/example/mvcsocketserver/ServerResponseThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCSocketServer/app/src/main/java/com/example/mvcsocketserver/SocketServerResponseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCSocketServer/app/src/main/java/com/example/mvcsocketserver/SocketUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVPSocketClient/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../MVPSocketClient/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVPSocketClient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../MVPSocketClient/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
